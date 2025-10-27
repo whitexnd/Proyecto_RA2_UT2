@@ -1,17 +1,29 @@
 # 03 — Instalación y prueba (15 días) / Alta e instalación de apps
 
-> Estructura orientativa
+## Requisitos de la Instalación
 
-## Requisitos previos
-- Navegador actualizado.
-- Cuenta de correo para alta.
+- Navegador moderno y actual
+- Cuenta de correo para el alta
 
-## Pasos
-1. **Crear base de datos de prueba (15 días)** desde odoo.com (activar por email).
-   - ![Crear BD](../assets/img/03-instalacion/paso01_crear-bd.png "Crear base de datos")
-2. **Seleccionar apps iniciales** (máximo 10 en la prueba): CRM, Ventas, Facturación, Contabilidad, Proyectos, Documentos, Calendario, etc.
-   - ![Seleccionar apps](../assets/img/03-instalacion/paso02_seleccionar-apps.png "Seleccionar apps")
-3. **Instalar/Desinstalar apps** desde *Aplicaciones* (¡cuidado con los datos al desinstalar!).
+## Pasos para la Instalación
+
+1. Acceder a la web de Odoo y solicitar el plan acorde en este caso la prueba de 15 días del estándar (IMPORTANTE DEBEMOS ACTIVAR LA BASE DE DATOS DESDE EL CORREO)
+
+![Precios](../assets/img/03-instalacion/paso03_odoo-precio.png "Precios")
+
+> Activamos la base de datos desde Gmail
+
+![Base de Datos](../assets/img/03-instalacion/paso03_odoo-bbdd.png "Base de datos")
+
+2.  Seleccionamos los módulos que queramos o que creamos pertinentes como máximo 10
+![Modulos](../assets/img/03-instalacion/paso03_odoo-modulos.png "Modulos")
+
+3. Instalación y desinstalación de aplicaciones de Odoo
+
+> Mediante el icono de aplicaciones del menú de inicio podemos acceder a un amplio catalogo de aplicaciones y desinstalar las que ya tengamos pulsando en los tres puntitos que aparecen junto a la app (Cuidado con los datos al desinstalar una app)
+
+![Instalar apps](../assets/img/03-instalacion/paso03_odoo-instalarapps.png "Instalar apps")
 
 ## Resultado esperado
-- Acceso al panel principal con las apps instaladas.
+
+![Panel apps](../assets/img/03-instalacion/paso03_odoo-panel.png "Panel apps")

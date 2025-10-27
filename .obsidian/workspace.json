@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "common/templates/SECCION_TEMPLATE.md",
+                "file": "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/03-instalacion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SECCION_TEMPLATE"
+              "title": "03-instalacion"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 389.5
   },
   "right": {
     "id": "a25921495d0e5834",
@@ -168,6 +168,20 @@
   },
   "active": "a0b6a4e39cc0330f",
   "lastOpenFiles": [
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/00-portada.md",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/02-introduccion.md",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/01-indice.md",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/03-instalacion.md",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/04-ajustes_generales.md",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/06-contactos.md",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/03-instalacion/paso03_odoo-panel.png",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/03-instalacion/paso03_odoo-instalarapps.png",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/03-instalacion/paso03_odoo-bbdd.png",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/03-instalacion/paso03_odoo-modulos.png",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/03-instalacion/paso03_odoo-precio",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/03-instalacion/paso03_odoo-precio.png",
+    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/99-referencias.md",
+    "common/templates/SECCION_TEMPLATE.md",
     "common/templates/MANUAL_TEMPLATE_UNICO.md",
     "common/templates/GUIA_IMAGENES.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/02-introduccion",
@@ -181,21 +195,13 @@
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/05-integracion_gmail",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/04-ajustes_generales",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/03-instalacion",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/00-portada",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/rubric/R01_Manual_Odoo_rubrica.md",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/99-referencias.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/11-tips_y_checklist.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/10-ediciones_y_costes.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/09-documentos_firma_info.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/08-proyectos.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/07-calendario_y_citas.md",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/06-contactos.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/05-integracion_gmail.md",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/04-ajustes_generales.md",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/03-instalacion.md",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/02-introduccion.md",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/01-indice.md",
-    "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/docs/00-portada.md",
     "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/README.md",
     "retos/Reto_01_Manual_Odoo_NombreAlumno_ApellidosAlumno/assets/img/00-portada/paso00_imagen-portada.png",
     "retos/Reto_01_Manual_Odoo_NombreAlumno_ApellidosAlumno/README.md",
