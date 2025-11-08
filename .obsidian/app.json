@@ -1,3 +1,7 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "trashOption": "none",
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "retos/Reto_01_Manual_Odoo_Oscar_BlancoEspejo/assets/img/05-integracion_gmail",
+  "useMarkdownLinks": true
 }

@@ -12,3 +12,5 @@
 4. Probar desde Gmail: crear contacto/oportunidad desde el add-on.
 
 ![GCP OAuth](../assets/img/05-integracion_gmail/paso01_gcp-oauth.png "GCP OAuth")
+
+![[paso05_activar-integracion.png]]
