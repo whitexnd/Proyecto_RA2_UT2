@@ -43,4 +43,4 @@ Despues se nos habilitará la opcion de añadir hitos en una tarea
 ### Calificación del Cliente y Registro de Actividades
 
 Dentro del proyecto podremos ver en la parte superior la pestaña de Informes donde podremos (tanto nosotros como el cliente) llevar un seguimiento de los Análisis de las tareas y la calificación de los clientes
-![Calificación del Cliente](../assets/img/08-proyectos/paso08-analisis_calificacion.png "Calificación del Cliente")
+![Calificación del Cliente](../assets/img/08-proyectos/paso08_analisis-calificacion.png "Calificación del Cliente")
