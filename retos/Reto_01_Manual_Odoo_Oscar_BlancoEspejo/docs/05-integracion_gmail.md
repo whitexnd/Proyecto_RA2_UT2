@@ -27,6 +27,7 @@ Para ello necesitaremos acceder a Google cloud console y crear un proyecto
 Buscamos en la parte superior ""Gmail API"" y la habilitamos
 ![Gmail API](../assets/img/05-integracion_gmail/paso05_gmail-api.png "Gmail API")
 
+### Credenciales
 Una vez habilitada debemos crear las credenciales
 ![Gmail API credenciales](../assets/img/05-integracion_gmail/paso05_gmailapi-credenciales.png "Gmail API credenciales")
 
