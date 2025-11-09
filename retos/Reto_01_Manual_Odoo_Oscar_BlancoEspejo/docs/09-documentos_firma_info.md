@@ -1,13 +1,5 @@
 # 09 — Documentos, Firma e Información (Knowledge)
 
-> Estructura orientativa
-
-- **Documentos**: repositorio, edición hojas, dividir PDFs, etiquetas/flujo.
-- **Firma electrónica**: campos (firma/nombre/fecha), envío y registro.
-- **Información (Knowledge)**: wiki tipo Notion, permisos y publicación.
-
-![Documentos](../assets/img/09-documentos_firma_info/paso01_documentos.png "Documentos")
-
 ## Módulo Documentos
 
 En el panel de aplicaciones, seleccionamos el módulo de Documentos para gestionar nuestros archivos y documentos, podemos ver que se organiza por carpetas, subimos un archivo arrastandolo
