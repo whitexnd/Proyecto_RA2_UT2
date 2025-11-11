@@ -1,7 +1,11 @@
 # 06 — Configuración inicial
 
-1. Localiza archivos de **configuración** (si aplica) y el puerto por defecto (ej. `8069`).
-2. (Opcional) Ajusta idioma, zona horaria, y otros parámetros iniciales.
-3. Anota la **URL de acceso local** (p. ej., `http://localhost:8069`).
+En la ruta de instalación de Odoo (por defecto `C:\Program Files\Odoo 19.0\server\`) encontraremos el archivo de configuración `odoo.conf` donde podremos ver y modificar los parámetros básicos de Odoo.
 
-> Resultado esperado: parámetros básicos identificados/documentados.
+![Configuración de Odoo](../assets/img/06-configuracion_inicial/paso06_configuracion-odoo.png "Configuración de Odoo")
+
+> Parametro para cambiar el puerto de Odoo
+> http_port = 8069 
+
+
+Tambien encontraremos algunos parametros interesantes como la zona horaria, puerto de la base de datos, usuario y contraseña de PostgreSQL, etc.
