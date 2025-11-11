@@ -1,8 +1,77 @@
 # 10 — Problemas comunes (FAQ)
 
-- **Puerto en uso (8069)** → Cambia el puerto o libera el existente.
-- **Error con PostgreSQL** → Revisa usuario/contraseña/puerto, estado del servicio.
-- **Firewall/antivirus** → Permite Odoo/PostgreSQL o crea excepciones.
-- **Servicio no arranca** → Consulta logs y dependencias, reinstala si es necesario.
+Podemos consultar los errores en el log odoo.log ubicado en la carpeta de instalación de Odoo, por defecto en `C:\Program Files\Odoo 19.0-20251110\server\odoo.log`.
 
-> Añade los problemas que encuentres y cómo los resolviste, con capturas.
+## Error puerto en uso
+Si al iniciar el servicio de Odoo nos aparece un error indicando que el puerto 8069 ya está en uso, podemos solucionarlo modificando el puerto:
+
+### Cambiar puerto en odoo.conf
+```sh
+[options]
+addons_path = c:\program files\odoo 19.0.20251110\server\odoo\addons
+admin_passwd = $pbkdf2-sha512$600000$ZCwlJIQQopSyFoJQak1JKQ$CzJNWZTm64JnxWJhCV40oAOjP4hfIYGzhCqoU2XJty3k/nonk3pKyGujdAt.RcRosxfD/yHZuTY.r9s2AV5bQA
+csv_internal_sep = ,
+data_dir = C:\Users\user\AppData\Local\OpenERP S.A.\Odoo
+db_app_name = odoo-{pid}
+db_host = localhost
+db_maxconn = 64
+db_maxconn_gevent = None
+db_name = 
+db_password = openpgpwd
+db_port = 5432
+db_replica_host = None
+db_replica_port = None
+db_sslmode = prefer
+db_template = template0
+db_user = openpg
+dbfilter = 
+email_from = 
+from_filter = 
+geoip_city_db = /usr/share/GeoIP/GeoLite2-City.mmdb
+geoip_country_db = /usr/share/GeoIP/GeoLite2-Country.mmdb
+gevent_port = 8072
+http_enable = True
+http_interface = 0.0.0.0
+http_port = 8069
+limit_memory_soft = 2147483648
+limit_time_real = 120
+limit_time_real_cron = -1
+limit_time_worker_cron = 0
+list_db = True
+log_db = 
+log_db_level = warning
+log_handler = :INFO
+log_level = info
+logfile = c:\program files\odoo 19.0.20251110\server\odoo.log
+max_cron_threads = 2
+osv_memory_count_limit = 0
+pg_path = c:\program files\odoo 19.0.20251110\postgresql\bin
+pidfile = 
+pre_upgrade_scripts = 
+proxy_mode = False
+reportgz = False
+screencasts = 
+screenshots = C:\Users\user\AppData\Local\Temp\odoo_tests
+server_wide_modules = base,rpc,web
+smtp_password = 
+smtp_port = 25
+smtp_server = localhost
+smtp_ssl = False
+smtp_ssl_certificate_filename = 
+smtp_ssl_private_key_filename = 
+smtp_user = 
+syslog = False
+transient_age_limit = 1.0
+unaccent = False
+upgrade_path = 
+websocket_keep_alive_timeout = 3600
+websocket_rate_limit_burst = 10
+websocket_rate_limit_delay = 0.2
+with_demo = False
+x_sendfile = False
+```
+
+cambiando la línea `http_port = 8069` por otro puerto libre, por ejemplo `http_port = 8070`.
+
+## Errores en el servicio o dependencias
+Si el servicio de Odoo no arranca, podemos revisar el log `odoo.log`.
