@@ -1,12 +1,12 @@
 # 12 — Checklist final
 
-- [ ] Sistema actualizado (`apt update/upgrade`).
-- [ ] PostgreSQL instalado y activo.
-- [ ] Dependencias de Python/wkhtmltopdf instaladas.
-- [ ] Odoo instalado (paquete o código fuente).
-- [ ] `odoo.conf` creado y correcto.
-- [ ] Servicio `odoo` activo (systemd).
-- [ ] BD de prueba creada.
-- [ ] Acceso a `http://localhost:8069` verificado.
-- [ ] Capturas por sección con nombres correctos.
-- [ ] Bibliografía completada (oficial + técnica).
+- [x] Sistema actualizado (`apt update/upgrade`).
+- [x] PostgreSQL instalado y activo.
+- [x] Dependencias de Python/wkhtmltopdf instaladas.
+- [x] Odoo instalado (paquete o código fuente).
+- [x] `odoo.conf` creado y correcto.
+- [x] Servicio `odoo` activo (systemd).
+- [x] BD de prueba creada.
+- [x] Acceso a `http://localhost:8069` verificado.
+- [x] Capturas por sección con nombres correctos.
+- [x] Bibliografía completada (oficial + técnica).

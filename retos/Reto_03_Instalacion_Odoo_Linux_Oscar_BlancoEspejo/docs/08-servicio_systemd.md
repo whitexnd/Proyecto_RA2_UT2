@@ -1,6 +1,6 @@
 # 08 — Servicio systemd (`odoo.service`)
 
-1. Crea el servicio en `/etc/systemd/system/odoo.service`:
+1. Creamos el servicio en `/etc/systemd/system/odoo.service` (sudo nano /etc/systemd/system/odoo.service) con el siguiente contenido:
    ```ini
    [Unit]
    Description=Odoo Service
@@ -16,13 +16,14 @@
    [Install]
    WantedBy=multi-user.target
    ```
-2. Recarga y arranca:
+
+![Creación del servicio](../assets/img/08-servicio_systemd/paso08_crear-servicio.png "Creación del servicio")
+
+2. Recargamos y arrancamos:
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl enable --now odoo
    sudo systemctl status odoo
    ```
 
-![systemd](../assets/img/08-servicio_systemd/paso01_status-odoo.png "Estado de systemd")
-
-> Resultado esperado: servicio `odoo` activo y habilitado.
+![Estado del servicio Odoo](../assets/img/08-servicio_systemd/paso08_status-odoo.png "Estado del servicio Odoo")

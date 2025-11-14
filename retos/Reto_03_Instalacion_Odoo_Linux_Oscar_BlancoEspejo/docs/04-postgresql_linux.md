@@ -1,15 +1,14 @@
 # 04 — PostgreSQL en Linux
 
-1. Instala PostgreSQL desde repos:
+Instalamos postgresql con el siguiente comando:
    ```bash
    sudo apt -y install postgresql
    ```
-2. Verifica el servicio:
-   ```bash
-   sudo systemctl status postgresql
-   ```
-   ![Servicio PostgreSQL](../assets/img/04-postgresql_linux/paso01_status-postgres.png "Estado del servicio")
 
-3. (Opcional) Cambia contraseña del usuario `postgres` o crea rol específico para Odoo.
+![Instalación PostgreSQL](../assets/img/04-postgresql_linux/paso04_instalar-postgresql.png "Instalación PostgreSQL")
 
-> Resultado esperado: PostgreSQL instalado y activo.
+
+Cuando haya finalizado el comando anterior ejecutaremos el siguiente comando para verificar que el servicio de postgresql está en funcionamiento:
+```bash
+sudo systemctl status postgresql
+```

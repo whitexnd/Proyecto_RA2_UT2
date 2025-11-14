@@ -1,6 +1,9 @@
 # 07 — Configuración de Odoo (`/etc/odoo/odoo.conf`)
 
-1. Crea/edita el archivo de configuración con:
+Configuramos el archivo de configuración de odoo (`/etc/odoo/odoo.conf`) con los parámetros mínimos necesarios para su funcionamiento:
+![Configuración de Odoo](../assets/img/07-configuracion_odoo/paso07_editar-configuración.png "Configuración de Odoo")
+
+Y le ponemos el siguiente contenido:
    ```ini
    [options]
    db_host = False
@@ -11,9 +14,7 @@
    logfile = /var/log/odoo/odoo.log
    xmlrpc_port = 8069
    ```
-2. Crea carpetas y permisos si procede:
+Creamos la carpeta para los logs de odoo y le asignamos los permisos correspondientes:
    ```bash
    sudo mkdir -p /var/log/odoo && sudo chown odoo:odoo /var/log/odoo
    ```
-
-> Resultado esperado: configuración mínima funcional creada.

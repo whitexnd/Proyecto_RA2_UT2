@@ -15,9 +15,8 @@
 
 ![Base de Datos](../assets/img/03-instalacion/paso03_odoo-bbdd.png "Base de datos")
 
-2.  Seleccionamos los módulos que queramos o que creamos pertinentes como máximo 10
-![Modulos](../assets/img/03-instalacion/paso03_odoo-modulos.png "Modulos")
-
+2. Seleccionamos los módulos que queramos o que creamos pertinentes como máximo 10
+   ![Modulos](../assets/img/03-instalacion/paso03_odoo-modulos.png "Modulos")
 3. Instalación y desinstalación de aplicaciones de Odoo
 
 > Mediante el icono de aplicaciones del menú de inicio podemos acceder a un amplio catalogo de aplicaciones y desinstalar las que ya tengamos pulsando en los tres puntitos que aparecen junto a la app (Cuidado con los datos al desinstalar una app)
